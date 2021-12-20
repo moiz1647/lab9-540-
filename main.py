@@ -1,9 +1,3 @@
-
-print("..........")
-
-a = int(input())
-
-
 def decrypt(data, shift):
     new_data = ""
     for x in data:
