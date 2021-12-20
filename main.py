@@ -10,9 +10,9 @@ def decrypt(data, shift):
     return new_data
 
 
-code = int(input("Enter the code to decrypt: "))
-# code = "KLMLUKAOLMVYA"
-shift = int(input("Enter the shift: "))
-# shift = 7
+# code = int(input("Enter the code to decrypt: "))
+code = "KLMLUKAOLMVYA"
+# shift = int(input("Enter the shift: "))
+shift = 7
 print(decrypt(code, shift))
 # 65 to 90
