@@ -1,4 +1,4 @@
-print("Hello in my "+str(2))
+a = input()
 def decrypt(data, shift):
     new_data = ""
     for x in data:
